@@ -31,14 +31,17 @@ public function contribution()
 ## Usage
 
 ```php
+// implement CleaniqueCoders\Payslip\Contracts\Employee interface
 $employee = new \App\Models\Employee();
 $salary   = new \CleaniqueCoders\Payslip\Salary();
 
 // Earnings
+// Implement CleaniqueCoders\Payslip\Contracts\Contribution interface
 $basic_salary = new \App\Processors\Payslip\Earnings\BasicSalary();
 $basic_salary->setAmount(5000);
 $salary->addEarnings($basic_salary);
 
+// Implement CleaniqueCoders\Payslip\Contracts\Contribution interface
 $travel_allowance = new \App\Processors\Payslip\Earnings\TravelAllowance();
 $travel_allowance->setAmount(500);
 $salary->addEarnings($travel_allowance);
