@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/cleaniquecoders/payslip-core.svg?branch=master)](https://travis-ci.org/cleaniquecoders/payslip-core) [![Latest Stable Version](https://poser.pugx.org/cleaniquecoders/payslip-core/v/stable)](https://packagist.org/packages/cleaniquecoders/payslip-core) [![Total Downloads](https://poser.pugx.org/cleaniquecoders/payslip-core/downloads)](https://packagist.org/packages/cleaniquecoders/payslip-core) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/cleaniquecoders/payslip-core/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/cleaniquecoders/payslip-core/?branch=master) [![License](https://poser.pugx.org/cleaniquecoders/payslip-core/license)](https://packagist.org/packages/cleaniquecoders/payslip-core)
+
 # Payslip Core
 
 This package about provide a simple processor for payslip - calculate employee salary for the given year and month. Each employee have their own earnings and deductions.
